@@ -1,6 +1,5 @@
 # fix-for-examptopics.com
-The quick fix for the bug in the site `examptopics.com`
-
+The quick fix for the bug in the site `examtopics.com`
 ```
 document.body.innerHTML = document.body.innerHTML.replace(/ג€™/g, "'")
 ```
