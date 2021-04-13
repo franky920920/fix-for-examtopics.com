@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Fix for examtopics.com",
+	"description": "Fix error in examtopics.com",
+	"version": "1.0.0",
+	"permissions": [
+		"activeTab"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"https://www.examtopics.com/*"
+			],
+			"js": [
+				"execute.js"
+			]
+		}
+	]
+}
